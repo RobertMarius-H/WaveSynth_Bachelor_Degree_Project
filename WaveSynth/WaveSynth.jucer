@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bCBc2K" name="WaveSynth" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginFormats="buildAU,buildStandalone,buildVST3" pluginVST3Category="Instrument">
+  <MAINGROUP id="O9BC2O" name="WaveSynth">
+    <GROUP id="{6A1D9D9C-3A5E-0EBC-BEE6-99EC9B1B6BCB}" name="LFO">
+      <FILE id="UjmRhO" name="LFO.cpp" compile="1" resource="0" file="Source/LFO.cpp"/>
+      <FILE id="A8BQQI" name="LFO.h" compile="0" resource="0" file="Source/LFO.h"/>
+      <FILE id="BLfodL" name="LFOComponent.cpp" compile="1" resource="0"
+            file="Source/LFOComponent.cpp"/>
+      <FILE id="etHE81" name="LFOComponent.h" compile="0" resource="0" file="Source/LFOComponent.h"/>
+    </GROUP>
+    <GROUP id="{004BF601-1A52-415E-EAF4-A6E0D09EB413}" name="Filter">
+      <FILE id="guewGq" name="FilterComponent.cpp" compile="1" resource="0"
+            file="Source/FilterComponent.cpp"/>
+      <FILE id="ltTvh3" name="FilterComponent.h" compile="0" resource="0"
+            file="Source/FilterComponent.h"/>
+      <FILE id="W1Yqfs" name="FilterData.cpp" compile="1" resource="0" file="Source/FilterData.cpp"/>
+      <FILE id="slVjwi" name="FilterData.h" compile="0" resource="0" file="Source/FilterData.h"/>
+    </GROUP>
+    <GROUP id="{69F4C548-0CC9-EE73-36D2-A89288405D11}" name="Efects">
+      <GROUP id="{EF7F5203-9CD2-160E-B015-8FD8C2B6CD09}" name="Delay">
+        <FILE id="Wg5Jb1" name="DelayComponent.cpp" compile="1" resource="0"
+              file="Source/DelayComponent.cpp"/>
+        <FILE id="NSAABd" name="DelayComponent.h" compile="0" resource="0"
+              file="Source/DelayComponent.h"/>
+        <FILE id="Nlo8Xb" name="DelayData.cpp" compile="1" resource="0" file="Source/DelayData.cpp"/>
+        <FILE id="hwtAUL" name="DelayData.h" compile="0" resource="0" file="Source/DelayData.h"/>
+      </GROUP>
+      <GROUP id="{DAC38E79-DFC3-1A5C-C261-15DB48926471}" name="Phaser">
+        <FILE id="ndXJqf" name="PhaserComponent.cpp" compile="1" resource="0"
+              file="Source/PhaserComponent.cpp"/>
+        <FILE id="Q93Sj0" name="PhaserComponent.h" compile="0" resource="0"
+              file="Source/PhaserComponent.h"/>
+        <FILE id="HCL1BK" name="PhaserData.cpp" compile="1" resource="0" file="Source/PhaserData.cpp"/>
+        <FILE id="xssFEF" name="PhaserData.h" compile="0" resource="0" file="Source/PhaserData.h"/>
+      </GROUP>
+      <GROUP id="{C340A16D-56E2-0DD1-D8D7-32718B0577DD}" name="Flanger">
+        <FILE id="oZ5K8S" name="FlangerComponent.cpp" compile="1" resource="0"
+              file="Source/FlangerComponent.cpp"/>
+        <FILE id="OgsQ9g" name="FlangerComponent.h" compile="0" resource="0"
+              file="Source/FlangerComponent.h"/>
+        <FILE id="II9UHz" name="FlangerData.cpp" compile="1" resource="0" file="Source/FlangerData.cpp"/>
+        <FILE id="sbS7uc" name="FlangerData.h" compile="0" resource="0" file="Source/FlangerData.h"/>
+      </GROUP>
+      <GROUP id="{AB7A7FF8-DBC2-E91E-ED2A-D333EF24BF5F}" name="Chorus">
+        <FILE id="MVDiIx" name="ChorusComponent.cpp" compile="1" resource="0"
+              file="Source/ChorusComponent.cpp"/>
+        <FILE id="LHd6XI" name="ChorusComponent.h" compile="0" resource="0"
+              file="Source/ChorusComponent.h"/>
+        <FILE id="TGF9wo" name="ChorusData.cpp" compile="1" resource="0" file="Source/ChorusData.cpp"/>
+        <FILE id="J3NX5s" name="ChorusData.h" compile="0" resource="0" file="Source/ChorusData.h"/>
+      </GROUP>
+      <GROUP id="{E5CDFA35-A0B8-36D8-B97B-308EDB5FB902}" name="Drive">
+        <FILE id="eZVGLu" name="DriveComponent.cpp" compile="1" resource="0"
+              file="Source/DriveComponent.cpp"/>
+        <FILE id="ZyB39V" name="DriveComponent.h" compile="0" resource="0"
+              file="Source/DriveComponent.h"/>
+        <FILE id="XmaN6F" name="DriveData.cpp" compile="1" resource="0" file="Source/DriveData.cpp"/>
+        <FILE id="Zy4yVI" name="DriveData.h" compile="0" resource="0" file="Source/DriveData.h"/>
+      </GROUP>
+      <GROUP id="{62770A2B-D4AA-DD42-C179-E70F8E78DAAB}" name="Reverb">
+        <FILE id="DDpwms" name="ReverbComponent.cpp" compile="1" resource="0"
+              file="Source/ReverbComponent.cpp"/>
+        <FILE id="BhIoVS" name="ReverbComponent.h" compile="0" resource="0"
+              file="Source/ReverbComponent.h"/>
+        <FILE id="akoqWm" name="ReverbData.cpp" compile="1" resource="0" file="Source/ReverbData.cpp"/>
+        <FILE id="V7vZaX" name="ReverbData.h" compile="0" resource="0" file="Source/ReverbData.h"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{6805CF1E-F0E9-4369-8047-98C136824EFE}" name="Data">
+      <FILE id="BOrJvL" name="AdsrData.cpp" compile="1" resource="0" file="Source/AdsrData.cpp"/>
+      <FILE id="rTdGa7" name="AdsrData.h" compile="0" resource="0" file="Source/AdsrData.h"/>
+      <FILE id="vlmfxK" name="GainData.cpp" compile="1" resource="0" file="Source/GainData.cpp"/>
+      <FILE id="ESoe6K" name="GainData.h" compile="0" resource="0" file="Source/GainData.h"/>
+      <FILE id="yK1m8N" name="OscData.cpp" compile="1" resource="0" file="Source/OscData.cpp"/>
+      <FILE id="rgYRhI" name="OscData.h" compile="0" resource="0" file="Source/OscData.h"/>
+    </GROUP>
+    <GROUP id="{0E1EBD64-EC92-40D4-1959-519514220058}" name=" UI">
+      <FILE id="B9nZIh" name="AdsrComponent.cpp" compile="1" resource="0"
+            file="Source/AdsrComponent.cpp"/>
+      <FILE id="MvS9zt" name="AdsrComponent.h" compile="0" resource="0" file="Source/AdsrComponent.h"/>
+      <FILE id="NOcld3" name="GainComponent.cpp" compile="1" resource="0"
+            file="Source/GainComponent.cpp"/>
+      <FILE id="dpQnaq" name="GainComponent.h" compile="0" resource="0" file="Source/GainComponent.h"/>
+      <FILE id="UY0ia6" name="OscComponent.cpp" compile="1" resource="0"
+            file="Source/OscComponent.cpp"/>
+      <FILE id="PUMyFn" name="OscComponent.h" compile="0" resource="0" file="Source/OscComponent.h"/>
+      <FILE id="cgh7qg" name="SpectrumDisplay.cpp" compile="1" resource="0"
+            file="Source/SpectrumDisplay.cpp"/>
+      <FILE id="f1eZDz" name="SpectrumDisplay.h" compile="0" resource="0"
+            file="Source/SpectrumDisplay.h"/>
+      <FILE id="N0aylV" name="StatusCircle.cpp" compile="1" resource="0"
+            file="Source/StatusCircle.cpp"/>
+      <FILE id="z0RJOQ" name="StatusCircle.h" compile="0" resource="0" file="Source/StatusCircle.h"/>
+      <FILE id="OzLQuO" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="vUxJcq" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+    </GROUP>
+    <GROUP id="{65B12317-BDCC-6F44-F6FF-DD66BE33DE80}" name="Source">
+      <FILE id="sauYXF" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="LFjfnB" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ZEFB9y" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="XlXRH7" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="aGbpMj" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+    <FILE id="apW8at" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+    <FILE id="gkQd6E" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="WaveSynth"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="WaveSynth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../juce-8.0.3-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce-8.0.3-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

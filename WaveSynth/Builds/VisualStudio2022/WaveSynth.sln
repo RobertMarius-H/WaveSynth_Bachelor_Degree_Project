@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveSynth - Standalone Plugin", "WaveSynth_StandalonePlugin.vcxproj", "{BA477F19-D6FD-7FE5-95E5-4CB8C6ACF921}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D38829E-C46F-EBC9-1DA6-42A157BDBA85} = {7D38829E-C46F-EBC9-1DA6-42A157BDBA85}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveSynth - VST3", "WaveSynth_VST3.vcxproj", "{E246C474-B44E-CDF1-8615-475A5BDF5FD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D38829E-C46F-EBC9-1DA6-42A157BDBA85} = {7D38829E-C46F-EBC9-1DA6-42A157BDBA85}
+		{DD5CCD7B-A72E-73A8-9770-88CAABECCD73} = {DD5CCD7B-A72E-73A8-9770-88CAABECCD73}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveSynth - Shared Code", "WaveSynth_SharedCode.vcxproj", "{7D38829E-C46F-EBC9-1DA6-42A157BDBA85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaveSynth - VST3 Manifest Helper", "WaveSynth_VST3ManifestHelper.vcxproj", "{DD5CCD7B-A72E-73A8-9770-88CAABECCD73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E246C474-B44E-CDF1-8615-475A5BDF5FD2}.Debug|x64.ActiveCfg = Debug|x64
+		{E246C474-B44E-CDF1-8615-475A5BDF5FD2}.Debug|x64.Build.0 = Debug|x64
+		{E246C474-B44E-CDF1-8615-475A5BDF5FD2}.Release|x64.ActiveCfg = Release|x64
+		{E246C474-B44E-CDF1-8615-475A5BDF5FD2}.Release|x64.Build.0 = Release|x64
+		{BA477F19-D6FD-7FE5-95E5-4CB8C6ACF921}.Debug|x64.ActiveCfg = Debug|x64
+		{BA477F19-D6FD-7FE5-95E5-4CB8C6ACF921}.Debug|x64.Build.0 = Debug|x64
+		{BA477F19-D6FD-7FE5-95E5-4CB8C6ACF921}.Release|x64.ActiveCfg = Release|x64
+		{BA477F19-D6FD-7FE5-95E5-4CB8C6ACF921}.Release|x64.Build.0 = Release|x64
+		{7D38829E-C46F-EBC9-1DA6-42A157BDBA85}.Debug|x64.ActiveCfg = Debug|x64
+		{7D38829E-C46F-EBC9-1DA6-42A157BDBA85}.Debug|x64.Build.0 = Debug|x64
+		{7D38829E-C46F-EBC9-1DA6-42A157BDBA85}.Release|x64.ActiveCfg = Release|x64
+		{7D38829E-C46F-EBC9-1DA6-42A157BDBA85}.Release|x64.Build.0 = Release|x64
+		{DD5CCD7B-A72E-73A8-9770-88CAABECCD73}.Debug|x64.ActiveCfg = Debug|x64
+		{DD5CCD7B-A72E-73A8-9770-88CAABECCD73}.Debug|x64.Build.0 = Debug|x64
+		{DD5CCD7B-A72E-73A8-9770-88CAABECCD73}.Release|x64.ActiveCfg = Release|x64
+		{DD5CCD7B-A72E-73A8-9770-88CAABECCD73}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
